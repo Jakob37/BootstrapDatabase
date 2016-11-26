@@ -13,18 +13,24 @@
 <body>
 
     <div class="container col-sm-offset-0 col-md-offset-1">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Blasting of with Boostrap</h1>
+
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <a href="/" class="navbar-brand">Blasting of with Boostrap</a>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/">Tickets</a></li>
+                    <li><a href="/">Station</a></li>
+                    <li><a href="/">About</a></li>
+                </ul>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row well well-sm">
         <div class="col-md-6">
             <h2>Sub paragraph!</h2>
             <p class="lead text-center">Some lead text here!</p>
-            <button>Text!</button>
-            <button>Text!</button>
+            <button class="btn btn-lg btn-default">My Button!</button>
+            <button class="btn btn-lg btn-primary">My Button2!</button>
         </div>
         </div>
 
@@ -52,7 +58,24 @@
         <div class="col-xs-6 col-sm-3 col-md-offset-1 features">
             <i class="glyphicon glyphicon-check"></i>
             <h3>a</h3>
-            <p>CONTEKJFJSDLKJDLKFJDLDKJFLDSKJFDLSKFJD</p>
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#pane1">CONT</a></li>
+                <li><a href="#pane2">CONT</a></li>
+                <li><a href="#pane3">CONT</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="pane1">
+                    <p>Pane 1 content!</p>
+                </div>
+                <div class="tab-pane" id="pane2">
+                    <p>Pane 2 content!</p>
+                </div>
+                <div class="tab-pane" id="pane3">
+                    <p>Pane 3 content!</p>
+                </div>
+
+            </div>
         </div>
 
         <div class="hidden-xs col-md-4 features">
